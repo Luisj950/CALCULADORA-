@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # compiled output
 /dist
 /node_modules
@@ -21,6 +22,23 @@ lerna-debug.log*
 
 # IDEs and editors
 /.idea
+=======
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+>>>>>>> 6cf966194ef677ed6d32714b15f67aef5458252a
 .project
 .classpath
 .c9/
@@ -28,12 +46,17 @@ lerna-debug.log*
 .settings/
 *.sublime-workspace
 
+<<<<<<< HEAD
 # IDE - VSCode
+=======
+# Visual Studio Code
+>>>>>>> 6cf966194ef677ed6d32714b15f67aef5458252a
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+<<<<<<< HEAD
 
 # dotenv environment variable files
 .env
@@ -54,3 +77,19 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+=======
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+>>>>>>> 6cf966194ef677ed6d32714b15f67aef5458252a
